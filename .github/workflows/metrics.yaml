@@ -10,7 +10,7 @@ on:
 
 jobs:
   github-metrics:
-    name: Generates README.md with metrics
+    name: Generates github-metrics.svg
 
     runs-on: ubuntu-latest
     environment:
