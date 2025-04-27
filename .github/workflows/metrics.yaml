@@ -1,4 +1,3 @@
-# Visit https://github.com/lowlighter/metrics#-documentation for full reference
 name: Metrics
 
 on:
@@ -14,6 +13,8 @@ jobs:
     name: Generates README.md with metrics
 
     runs-on: ubuntu-latest
+    environment:
+      name: production
     permissions:
       contents: write
 
