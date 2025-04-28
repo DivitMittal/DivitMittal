@@ -58,7 +58,7 @@ jobs:
           plugin_isocalendar_duration: half-year
 
           ## Languages
-          plugin_languages: yes
+          plugin_languages: no
           plugin_languages_analysis_timeout: 15
           plugin_languages_analysis_timeout_repositories: 7.5
           plugin_languages_categories: markup, programming
