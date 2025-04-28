@@ -3,9 +3,9 @@ name: Metrics
 on:
   schedule: [{ cron: "0 * * * *" }] # Schedule updates (each hour)
   push:
-    branches: ["master"]
+    branches: [master]
   pull_request:
-    branches: [master, dev-qezta]
+    branches: [master]
   workflow_dispatch:
 
 jobs:
@@ -71,7 +71,7 @@ jobs:
           plugin_languages_threshold: 0%
 
           ## Stargazers
-          plugin_stargazers: yes
+          plugin_stargazers: no
           plugin_stargazers_charts: no
           plugin_stargazers_charts_type: classic
           plugin_stargazers_days: 14
