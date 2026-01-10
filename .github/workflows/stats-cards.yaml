@@ -1,6 +1,7 @@
 name: Stats Cards
 
 on:
+  schedule: [{ cron: "30 * * * *" }] # Schedule updates (each hour, 30 min offset from metrics)
   push:
     branches: [master]
   pull_request:
