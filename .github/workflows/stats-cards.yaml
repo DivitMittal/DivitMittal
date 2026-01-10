@@ -1,0 +1,38 @@
+name: Stats Cards
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+jobs:
+  stats-cards-job:
+    name: Generates stats cards
+
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate top languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&langs_count=14&theme=transparent&hide_progress=true&show_icons=true&hide_border=true
+          path: top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit stats cards
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add *.svg
+          git pull --rebase origin master
+          git commit -m "Update stats cards - [Skip GitHub Action]" || exit 0
+          git push
