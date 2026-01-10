@@ -84,7 +84,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git pull --rebase origin master
           git add *.svg
+          git pull --rebase origin master
           git commit -m "Update stats cards - [Skip GitHub Action]" || exit 0
           git push
