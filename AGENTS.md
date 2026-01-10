@@ -1,5 +1,3 @@
-# AGENTS.md - Coding Agent Instructions
-
 ## Repository Overview
 
 This is a **GitHub Profile README repository** (`DivitMittal/DivitMittal`).
@@ -114,7 +112,7 @@ jobs:
 2. **metrics.yaml**: Test changes by:
    - Creating a PR (triggers workflow on `pull_request`)
    - Using "Run workflow" button in GitHub Actions tab (`workflow_dispatch`)
-   
+
 3. **Secrets required**: `METRICS_TOKEN` - GitHub PAT with appropriate scopes for metrics collection.
 
 ### Commit Message Convention
