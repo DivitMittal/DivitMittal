@@ -1,0 +1,9 @@
+name: divitmittal
+version: 1.0.0
+description: GitHub profile README repository displaying GitHub statistics and metrics
+author: DivitMittal
+target:
+  - claude
+  - codex
+  - opencode
+type: instructions
