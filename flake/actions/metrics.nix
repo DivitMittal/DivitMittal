@@ -1,4 +1,4 @@
-{...}: {
+_: {
   # Requires the repo secret METRICS_TOKEN to be set to a Personal Access
   # Token (classic) with scopes: public_repo, read:user, read:org. The
   # default ${{ secrets.GITHUB_TOKEN }} authenticates as github-actions[bot]

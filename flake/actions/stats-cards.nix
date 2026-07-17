@@ -1,4 +1,4 @@
-{...}: {
+_: {
   flake.actions-nix.workflows.".github/workflows/stats-cards.yml" = {
     name = "Stats Cards";
     on = {
