@@ -20,10 +20,10 @@
             /* Selector detects Firefox */
             .header { font-size: 15.5px; }
           }
-
+          
     .description {
       font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif;fill: #417E87;
-
+      
     }
     .gray { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #417E87 }
     .badge { font: 600 11px 'Segoe UI', Ubuntu, Sans-Serif; }
@@ -40,9 +40,9 @@
       fill: #0579C3;
       display: block;
     }
+  
 
-
-
+          
       /* Animations */
       @keyframes scaleInAnimation {
         from {
@@ -60,11 +60,11 @@
           opacity: 1;
         }
       }
-
+    
           * { animation-duration: 0s !important; animation-delay: 0s !important; }
         </style>
 
-
+        
 
         <rect
           data-testid="card-bg"
@@ -78,7 +78,7 @@
           stroke-opacity="0"
         />
 
-
+        
       <g
         data-testid="card-title"
         transform="translate(25, 35)"
@@ -104,16 +104,16 @@
       >DivitMittal/ai-nixCfg</text>
     </g>
       </g>
-
+    
 
         <g
           data-testid="main-card-body"
           transform="translate(0, 55)"
         >
+          
+    
 
-
-
-    <text class="description" x="25" y="-5">
+    <text class="description" x="25" y="-5"> 
       <tspan dy="1.2em" x="25">Nix home-manager modules and configurations for AI</tspan><tspan dy="1.2em" x="25">coding assistants.</tspan>
     </text>
 
@@ -136,11 +136,12 @@
       </svg>
     </g><g transform="translate(20, 0)"><text data-testid="stargazers" class="gray">14</text></g></g>
     </g>
-
+    
   <svg x="0" y="0"><g transform="translate(-3, 88)">
-
+      
     </g></svg>
-
-
+    
+  
         </g>
       </svg>
+    
