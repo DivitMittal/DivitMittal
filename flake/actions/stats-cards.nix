@@ -28,7 +28,7 @@ _: {
           "with" = {
             card = "top-langs";
             options = "username=\${{ github.repository_owner }}&langs_count=14&theme=transparent&hide_progress=true&show_icons=true&hide_border=true";
-            path = "top-langs.svg";
+            path = "assets/top-langs.svg";
             token = "\${{ secrets.GITHUB_TOKEN }}";
           };
         }
@@ -40,7 +40,7 @@ _: {
           "with" = {
             card = "pin";
             options = "username=\${{ github.repository_owner }}&repo=OS-nixCfg&title_color=58A6FF&text_color=8B949E&icon_color=79C0FF&bg_color=0D1117&border_color=30363D&border_radius=6&hide_border=false&show_owner=true&show_icons=true";
-            path = "pin-OS-nixCfg.svg";
+            path = "assets/pins/pin-OS-nixCfg.svg";
             token = "\${{ secrets.GITHUB_TOKEN }}";
           };
         }
@@ -50,7 +50,7 @@ _: {
           "with" = {
             card = "pin";
             options = "username=\${{ github.repository_owner }}&repo=ai-nixCfg&title_color=58A6FF&text_color=8B949E&icon_color=79C0FF&bg_color=0D1117&border_color=30363D&border_radius=6&hide_border=false&show_owner=true&show_icons=true";
-            path = "pin-ai-nixCfg.svg";
+            path = "assets/pins/pin-ai-nixCfg.svg";
             token = "\${{ secrets.GITHUB_TOKEN }}";
           };
         }
@@ -60,7 +60,7 @@ _: {
           "with" = {
             card = "pin";
             options = "username=\${{ github.repository_owner }}&repo=TLTR&title_color=58A6FF&text_color=8B949E&icon_color=79C0FF&bg_color=0D1117&border_color=30363D&border_radius=6&hide_border=false&show_owner=true&show_icons=true";
-            path = "pin-TLTR.svg";
+            path = "assets/pins/pin-TLTR.svg";
             token = "\${{ secrets.GITHUB_TOKEN }}";
           };
         }
@@ -70,7 +70,7 @@ _: {
           "with" = {
             card = "pin";
             options = "username=\${{ github.repository_owner }}&repo=CARLA-Autonomous-Driving&title_color=58A6FF&text_color=8B949E&icon_color=79C0FF&bg_color=0D1117&border_color=30363D&border_radius=6&hide_border=false&show_owner=true&show_icons=true";
-            path = "pin-CARLA-Autonomous-Driving.svg";
+            path = "assets/pins/pin-CARLA-Autonomous-Driving.svg";
             token = "\${{ secrets.GITHUB_TOKEN }}";
           };
         }
@@ -79,7 +79,7 @@ _: {
           uses = "stefanzweifel/git-auto-commit-action@v5";
           "with" = {
             commit_message = "Update stats cards - [Skip GitHub Action]";
-            file_pattern = "*.svg";
+            file_pattern = "assets/*.svg assets/pins/*.svg";
             commit_user_name = "github-actions";
             commit_user_email = "github-actions@users.noreply.github.com";
           };

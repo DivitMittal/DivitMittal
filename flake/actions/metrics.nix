@@ -11,7 +11,7 @@ _: {
       workflow_dispatch = {};
     };
     jobs.metrics-job = {
-      name = "Generates github-metrics.svg";
+      name = "Generates assets/github-metrics.svg";
       environment.name = "production";
       permissions.contents = "write";
       steps = [
@@ -21,6 +21,7 @@ _: {
             token = "\${{ secrets.METRICS_TOKEN }}";
 
             user = "DivitMittal";
+            filename = "assets/github-metrics.svg";
             template = "classic";
 
             base = "header, activity, community, repositories, metadata";

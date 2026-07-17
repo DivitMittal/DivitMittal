@@ -7,7 +7,7 @@ jobs:
   metrics-job:
     environment:
       name: production
-    name: Generates github-metrics.svg
+    name: Generates assets/github-metrics.svg
     permissions:
       contents: write
     runs-on: ubuntu-latest
@@ -20,6 +20,7 @@ jobs:
         config_octicon: 'yes'
         config_timezone: Asia/Kolkata
         config_twemoji: 'yes'
+        filename: assets/github-metrics.svg
         plugin_habits: 'no'
         plugin_habits_charts_type: classic
         plugin_habits_days: 14
