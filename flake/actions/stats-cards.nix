@@ -39,7 +39,7 @@ _: {
           uses = "stats-organization/github-readme-stats-action@v2";
           "with" = {
             card = "pin";
-            options = "username=\${{ github.repository_owner }}&repo=OS-nixCfg&theme=transparent&hide_border=true&show_owner=true&show_icons=true";
+            options = "username=\${{ github.repository_owner }}&repo=OS-nixCfg&title_color=58A6FF&text_color=8B949E&icon_color=79C0FF&bg_color=0D1117&border_color=30363D&border_radius=6&hide_border=false&show_owner=true&show_icons=true";
             path = "pin-OS-nixCfg.svg";
             token = "\${{ secrets.GITHUB_TOKEN }}";
           };
@@ -49,7 +49,7 @@ _: {
           uses = "stats-organization/github-readme-stats-action@v2";
           "with" = {
             card = "pin";
-            options = "username=\${{ github.repository_owner }}&repo=ai-nixCfg&theme=transparent&hide_border=true&show_owner=true&show_icons=true";
+            options = "username=\${{ github.repository_owner }}&repo=ai-nixCfg&title_color=58A6FF&text_color=8B949E&icon_color=79C0FF&bg_color=0D1117&border_color=30363D&border_radius=6&hide_border=false&show_owner=true&show_icons=true";
             path = "pin-ai-nixCfg.svg";
             token = "\${{ secrets.GITHUB_TOKEN }}";
           };
@@ -59,7 +59,7 @@ _: {
           uses = "stats-organization/github-readme-stats-action@v2";
           "with" = {
             card = "pin";
-            options = "username=\${{ github.repository_owner }}&repo=TLTR&theme=transparent&hide_border=true&show_owner=true&show_icons=true";
+            options = "username=\${{ github.repository_owner }}&repo=TLTR&title_color=58A6FF&text_color=8B949E&icon_color=79C0FF&bg_color=0D1117&border_color=30363D&border_radius=6&hide_border=false&show_owner=true&show_icons=true";
             path = "pin-TLTR.svg";
             token = "\${{ secrets.GITHUB_TOKEN }}";
           };
@@ -69,7 +69,7 @@ _: {
           uses = "stats-organization/github-readme-stats-action@v2";
           "with" = {
             card = "pin";
-            options = "username=\${{ github.repository_owner }}&repo=CARLA-Autonomous-Driving&theme=transparent&hide_border=true&show_owner=true&show_icons=true";
+            options = "username=\${{ github.repository_owner }}&repo=CARLA-Autonomous-Driving&title_color=58A6FF&text_color=8B949E&icon_color=79C0FF&bg_color=0D1117&border_color=30363D&border_radius=6&hide_border=false&show_owner=true&show_icons=true";
             path = "pin-CARLA-Autonomous-Driving.svg";
             token = "\${{ secrets.GITHUB_TOKEN }}";
           };
