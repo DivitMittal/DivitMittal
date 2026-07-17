@@ -13,7 +13,7 @@
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #006AFF;
+            fill: #58A6FF;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -22,14 +22,14 @@
           }
           
     .description {
-      font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif;fill: #417E87;
+      font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif;fill: #8B949E;
       
     }
-    .gray { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #417E87 }
+    .gray { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8B949E }
     .badge { font: 600 11px 'Segoe UI', Ubuntu, Sans-Serif; }
     .badge rect { opacity: 0.2 }
 
-    .stat { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #417E87 }
+    .stat { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8B949E }
     .stagger {
       opacity: 0;
       animation: fadeInAnimation 0.3s ease-in-out forwards;
@@ -37,7 +37,7 @@
     .not_bold { font-weight: 400 }
     .bold { font-weight: 700 }
     .icon {
-      fill: #0579C3;
+      fill: #79C0FF;
       display: block;
     }
   
@@ -70,12 +70,12 @@
           data-testid="card-bg"
           x="0.5"
           y="0.5"
-          rx="4.5"
+          rx="6"
           height="99%"
-          stroke="#e4e2e2"
+          stroke="#30363D"
           width="399"
-          fill="#ffffff00"
-          stroke-opacity="0"
+          fill="#0D1117"
+          stroke-opacity="1"
         />
 
         
