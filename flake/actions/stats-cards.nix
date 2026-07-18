@@ -39,7 +39,7 @@ _: {
           uses = "stats-organization/github-readme-stats-action@v2";
           "with" = {
             card = "pin";
-            options = "username=\${{ github.repository_owner }}&repo=OS-nixCfg&title_color=58A6FF&text_color=8B949E&icon_color=79C0FF&bg_color=0D1117&border_color=30363D&border_radius=6&hide_border=false&show_owner=false&show_icons=true";
+            options = "username=\${{ github.repository_owner }}&repo=OS-nixCfg&title_color=58A6FF&text_color=8B949E&icon_color=79C0FF&bg_color=0D1117&border_color=30363D&border_radius=4&hide_border=false&show_owner=false&show_icons=true&description_lines_count=3";
             path = "assets/pins/pin-OS-nixCfg.svg";
             token = "\${{ secrets.GITHUB_TOKEN }}";
           };
@@ -49,7 +49,7 @@ _: {
           uses = "stats-organization/github-readme-stats-action@v2";
           "with" = {
             card = "pin";
-            options = "username=\${{ github.repository_owner }}&repo=ai-nixCfg&title_color=58A6FF&text_color=8B949E&icon_color=79C0FF&bg_color=0D1117&border_color=30363D&border_radius=6&hide_border=false&show_owner=false&show_icons=true";
+            options = "username=\${{ github.repository_owner }}&repo=ai-nixCfg&title_color=58A6FF&text_color=8B949E&icon_color=79C0FF&bg_color=0D1117&border_color=30363D&border_radius=4&hide_border=false&show_owner=false&show_icons=true&description_lines_count=3";
             path = "assets/pins/pin-ai-nixCfg.svg";
             token = "\${{ secrets.GITHUB_TOKEN }}";
           };
@@ -59,7 +59,7 @@ _: {
           uses = "stats-organization/github-readme-stats-action@v2";
           "with" = {
             card = "pin";
-            options = "username=\${{ github.repository_owner }}&repo=TLTR&title_color=58A6FF&text_color=8B949E&icon_color=79C0FF&bg_color=0D1117&border_color=30363D&border_radius=6&hide_border=false&show_owner=false&show_icons=true";
+            options = "username=\${{ github.repository_owner }}&repo=TLTR&title_color=58A6FF&text_color=8B949E&icon_color=79C0FF&bg_color=0D1117&border_color=30363D&border_radius=4&hide_border=false&show_owner=false&show_icons=true&description_lines_count=3";
             path = "assets/pins/pin-TLTR.svg";
             token = "\${{ secrets.GITHUB_TOKEN }}";
           };
@@ -69,7 +69,7 @@ _: {
           uses = "stats-organization/github-readme-stats-action@v2";
           "with" = {
             card = "pin";
-            options = "username=\${{ github.repository_owner }}&repo=CARLA-Autonomous-Driving&title_color=58A6FF&text_color=8B949E&icon_color=79C0FF&bg_color=0D1117&border_color=30363D&border_radius=6&hide_border=false&show_owner=false&show_icons=true";
+            options = "username=\${{ github.repository_owner }}&repo=CARLA-Autonomous-Driving&title_color=58A6FF&text_color=8B949E&icon_color=79C0FF&bg_color=0D1117&border_color=30363D&border_radius=4&hide_border=false&show_owner=false&show_icons=true&description_lines_count=3";
             path = "assets/pins/pin-CARLA-Autonomous-Driving.svg";
             token = "\${{ secrets.GITHUB_TOKEN }}";
           };
