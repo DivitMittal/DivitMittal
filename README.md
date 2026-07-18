@@ -5,8 +5,8 @@
 <table>
   <tbody>
     <tr>
-      <td colspan="2" align="center">
-        <h3><samp>Featured Repositories</samp></h3>
+      <td colspan="2" align="center" style="padding: 0;">
+        <h3 style="margin: 0;"><samp>Featured Repositories</samp></h3>
       </td>
     </tr>
     <tr>
