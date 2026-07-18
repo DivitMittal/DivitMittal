@@ -70,7 +70,7 @@
           data-testid="card-bg"
           x="0.5"
           y="0.5"
-          rx="6"
+          rx="4"
           height="99%"
           stroke="#30363D"
           width="399"

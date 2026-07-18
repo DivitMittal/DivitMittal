@@ -1,8 +1,8 @@
 
       <svg
         width="400"
-        height="140"
-        viewBox="0 0 400 140"
+        height="150"
+        viewBox="0 0 400 150"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
@@ -70,7 +70,7 @@
           data-testid="card-bg"
           x="0.5"
           y="0.5"
-          rx="6"
+          rx="4"
           height="99%"
           stroke="#30363D"
           width="399"
@@ -117,7 +117,7 @@
       <tspan dy="1.2em" x="25">Cross-platform multi-layer keyboard layout tailored for</tspan><tspan dy="1.2em" x="25">programmers</tspan>
     </text>
 
-    <g transform="translate(30, 65)">
+    <g transform="translate(30, 75)">
       <g transform="translate(0, 0)">
     <g data-testid="primary-lang">
       <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#555555" />
@@ -148,7 +148,7 @@
     </g><g transform="translate(20, 0)"><text data-testid="forkcount" class="gray">2</text></g></g>
     </g>
     
-  <svg x="0" y="0"><g transform="translate(-3, 88)">
+  <svg x="0" y="0"><g transform="translate(-3, 98)">
       
     </g></svg>
     
