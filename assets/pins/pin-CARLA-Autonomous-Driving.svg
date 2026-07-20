@@ -114,7 +114,7 @@
     
 
     <text class="description" x="25" y="-5"> 
-      <tspan dy="1.2em" x="25">Via high-fidelity CARLA vehicle</tspan><tspan dy="1.2em" x="25">simulator &#38; deep semantic segmentation,</tspan><tspan dy="1.2em" x="25">data from RGBA cameras and LiDAR sensors</tspan><tspan dy="1.2em" x="25">are combined to achieve comprehensive...</tspan>
+      <tspan dy="1.2em" x="25">Via high-fidelity CARLA vehicle simulator &#38; deep semantic</tspan><tspan dy="1.2em" x="25">segmentation, data from RGBA cameras and LiDAR sensors</tspan><tspan dy="1.2em" x="25">are combined to achieve comprehensive environmental...</tspan>
     </text>
 
     <g transform="translate(30, 75)">

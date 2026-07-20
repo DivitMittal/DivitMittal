@@ -114,7 +114,7 @@
     
 
     <text class="description" x="25" y="-5"> 
-      <tspan dy="1.2em" x="25">nix (via nix-darwin, nixos, nix-on-droid,</tspan><tspan dy="1.2em" x="25">home-manager, etc.) declarative</tspan><tspan dy="1.2em" x="25">configurations to attain my</tspan><tspan dy="1.2em" x="25">deterministically reproducible layer</tspan>
+      <tspan dy="1.2em" x="25">nix (via nix-darwin, nixos, nix-on-droid, home-manager, etc.)</tspan><tspan dy="1.2em" x="25">declarative configurations to attain my deterministically</tspan><tspan dy="1.2em" x="25">reproducible layer</tspan>
     </text>
 
     <g transform="translate(30, 75)">
