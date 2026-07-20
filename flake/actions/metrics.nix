@@ -30,7 +30,7 @@ _: {
 
             # Keep the generated card focused on metrics rather than attribution.
             extras_css = ''
-              .items-wrapper > section:last-of-type { display: none !important; }
+              .calendar.field, .items-wrapper > section:last-of-type { display: none !important; }
               footer { display: none !important; }
             '';
 
