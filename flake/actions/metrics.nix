@@ -47,6 +47,14 @@ _: {
             plugin_habits_languages_limit = 8;
             plugin_habits_languages_threshold = "0%";
 
+            ## Achievements
+            plugin_achievements = "yes";
+            plugin_achievements_threshold = "B";
+
+            ## Follow-up
+            plugin_followup = "yes";
+            plugin_followup_sections = "repositories, user";
+
             ## Isocalendar
             plugin_isocalendar = "no";
             plugin_isocalendar_duration = "half-year";
@@ -64,11 +72,27 @@ _: {
             plugin_languages_sections = "most-used";
             plugin_languages_threshold = "0%";
 
+            ## Lines changed
+            plugin_lines = "yes";
+            plugin_lines_delay = 30;
+            plugin_lines_sections = "base";
+
+            ## Notable contributions
+            plugin_notable = "yes";
+            plugin_notable_from = "all";
+            plugin_notable_types = "commit, pull_request";
+
             ## Stargazers
             plugin_stargazers = "no";
             plugin_stargazers_charts = "no";
             plugin_stargazers_charts_type = "classic";
             plugin_stargazers_days = 14;
+
+            ## Starred topics
+            plugin_topics = "yes";
+            plugin_topics_limit = 8;
+            plugin_topics_mode = "icons";
+            plugin_topics_sort = "activity";
 
             plugin_traffic = "yes";
           };
