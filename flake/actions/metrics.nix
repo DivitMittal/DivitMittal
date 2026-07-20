@@ -28,6 +28,12 @@ _: {
             base_hireable = "yes";
             base_indepth = "no";
 
+            # Keep the generated card focused on metrics rather than attribution.
+            extras_css = ''
+              .items-wrapper > section:last-of-type { display: none !important; }
+              footer { display: none !important; }
+            '';
+
             config_octicon = "yes";
             config_timezone = "Asia/Kolkata";
             config_twemoji = "yes";
@@ -42,7 +48,7 @@ _: {
             plugin_habits_languages_threshold = "0%";
 
             ## Isocalendar
-            plugin_isocalendar = "yes";
+            plugin_isocalendar = "no";
             plugin_isocalendar_duration = "half-year";
 
             ## Languages
