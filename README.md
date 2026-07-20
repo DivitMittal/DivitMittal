@@ -5,23 +5,23 @@
 <table>
   <tbody>
     <tr>
-      <td colspan="2" align="center" style="padding: 0;">
+      <td colspan="2" align="center" style="padding: 0 0 4px;">
         <h3 style="margin: 0;"><samp>Featured Repositories</samp></h3>
       </td>
     </tr>
     <tr>
-      <td align="center" width="50%">
+      <td align="center" width="50%" style="padding: 0;">
         <a href="https://github.com/DivitMittal/OS-nixCfg"><img src="/assets/pins/pin-OS-nixCfg.svg" alt="OS-nixCfg" /></a>
       </td>
-      <td align="center" width="50%">
+      <td align="center" width="50%" style="padding: 0;">
         <a href="https://github.com/DivitMittal/ai-nixCfg"><img src="/assets/pins/pin-ai-nixCfg.svg" alt="ai-nixCfg" /></a>
       </td>
     </tr>
     <tr>
-      <td align="center" width="50%">
+      <td align="center" width="50%" style="padding: 0;">
         <a href="https://github.com/DivitMittal/TLTR"><img src="/assets/pins/pin-TLTR.svg" alt="TLTR" /></a>
       </td>
-      <td align="center" width="50%">
+      <td align="center" width="50%" style="padding: 0;">
         <a href="https://github.com/DivitMittal/CARLA-Autonomous-Driving"><img src="/assets/pins/pin-CARLA-Autonomous-Driving.svg" alt="CARLA-Autonomous-Driving" /></a>
       </td>
     </tr>
