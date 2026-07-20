@@ -114,7 +114,7 @@
     
 
     <text class="description" x="25" y="-5"> 
-      <tspan dy="1.2em" x="25">Nix home-manager modules and configurations for AI</tspan><tspan dy="1.2em" x="25">coding assistants.</tspan>
+      <tspan dy="1.2em" x="25">Nix home-manager modules and</tspan><tspan dy="1.2em" x="25">configurations for AI coding assistants.</tspan>
     </text>
 
     <g transform="translate(30, 75)">
