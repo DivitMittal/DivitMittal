@@ -101,7 +101,7 @@
         y="0"
         class="header"
         data-testid="header"
-      >OS-nixCfg</text>
+      >infra-nixCfg</text>
     </g>
       </g>
     
