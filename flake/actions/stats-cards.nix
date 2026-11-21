@@ -9,7 +9,7 @@ _: {
     };
     jobs.stats-cards-job = {
       name = "Generates stats cards";
-      environment.name = "production";
+      environment.name = "profile-readme";
       permissions.contents = "write";
       steps = [
         {
@@ -29,7 +29,7 @@ _: {
             card = "top-langs";
             options = "username=\${{ github.repository_owner }}&langs_count=14&theme=transparent&hide_progress=true&show_icons=true&hide_border=true";
             path = "assets/top-langs.svg";
-            token = "\${{ secrets.GITHUB_TOKEN }}";
+            token = "\${{ secrets.PROFILE_README_TOKEN }}";
           };
         }
         # Pinned-repo cards. Each step renders a single repo's stats card
@@ -41,7 +41,7 @@ _: {
             card = "pin";
             options = "username=\${{ github.repository_owner }}&repo=OS-nixCfg&title_color=58A6FF&text_color=8B949E&icon_color=79C0FF&bg_color=0D1117&border_color=30363D&border_radius=4&hide_border=false&show_owner=false&show_icons=true&description_lines_count=4";
             path = "assets/pins/pin-OS-nixCfg.svg";
-            token = "\${{ secrets.GITHUB_TOKEN }}";
+            token = "\${{ secrets.PROFILE_README_TOKEN }}";
           };
         }
         {
@@ -51,7 +51,7 @@ _: {
             card = "pin";
             options = "username=\${{ github.repository_owner }}&repo=ai-nixCfg&title_color=58A6FF&text_color=8B949E&icon_color=79C0FF&bg_color=0D1117&border_color=30363D&border_radius=4&hide_border=false&show_owner=false&show_icons=true&description_lines_count=4";
             path = "assets/pins/pin-ai-nixCfg.svg";
-            token = "\${{ secrets.GITHUB_TOKEN }}";
+            token = "\${{ secrets.PROFILE_README_TOKEN }}";
           };
         }
         {
@@ -61,7 +61,7 @@ _: {
             card = "pin";
             options = "username=\${{ github.repository_owner }}&repo=TLTR&title_color=58A6FF&text_color=8B949E&icon_color=79C0FF&bg_color=0D1117&border_color=30363D&border_radius=4&hide_border=false&show_owner=false&show_icons=true&description_lines_count=4";
             path = "assets/pins/pin-TLTR.svg";
-            token = "\${{ secrets.GITHUB_TOKEN }}";
+            token = "\${{ secrets.PROFILE_README_TOKEN }}";
           };
         }
         {
@@ -71,7 +71,7 @@ _: {
             card = "pin";
             options = "username=\${{ github.repository_owner }}&repo=CARLA-Autonomous-Driving&title_color=58A6FF&text_color=8B949E&icon_color=79C0FF&bg_color=0D1117&border_color=30363D&border_radius=4&hide_border=false&show_owner=false&show_icons=true&description_lines_count=4";
             path = "assets/pins/pin-CARLA-Autonomous-Driving.svg";
-            token = "\${{ secrets.GITHUB_TOKEN }}";
+            token = "\${{ secrets.PROFILE_README_TOKEN }}";
           };
         }
         {

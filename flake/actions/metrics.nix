@@ -1,9 +1,8 @@
 _: {
-  # Requires the repo secret METRICS_TOKEN to be set to a Personal Access
-  # Token (classic) with scopes: public_repo, read:user, read:org. The
-  # default ${{ secrets.GITHUB_TOKEN }} authenticates as github-actions[bot]
-  # and is rejected by the GraphQL queries lowlighter/metrics issues
-  # ("Bad credentials" 401). See: https://github.com/lowlighter/metrics#-using-the-github-action-on-githubcom
+  # Managed by forge-tofu: DivitMittal/profile-readme/PROFILE_README_TOKEN
+  # comes from infra-nixCfg-secrets/secrets/forge/github/profile_readme.age.
+  # Metrics needs a user PAT for account queries and repository traffic;
+  # use GITHUB_TOKEN separately for committing the generated image.
   flake.actions-nix.workflows.".github/workflows/metrics.yml" = {
     name = "Metrics";
     on = {
@@ -12,13 +11,14 @@ _: {
     };
     jobs.metrics-job = {
       name = "Generates assets/github-metrics.svg";
-      environment.name = "production";
+      environment.name = "profile-readme";
       permissions.contents = "write";
       steps = [
         {
           uses = "lowlighter/metrics@latest";
           "with" = {
-            token = "\${{ secrets.METRICS_TOKEN }}";
+            token = "\${{ secrets.PROFILE_README_TOKEN }}";
+            committer_token = "\${{ secrets.GITHUB_TOKEN }}";
 
             user = "DivitMittal";
             filename = "assets/github-metrics.svg";

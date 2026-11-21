@@ -6,7 +6,7 @@
 jobs:
   metrics-job:
     environment:
-      name: production
+      name: profile-readme
     name: Generates assets/github-metrics.svg
     permissions:
       contents: write
@@ -17,6 +17,7 @@ jobs:
         base: header, activity, community, repositories, metadata
         base_hireable: 'yes'
         base_indepth: 'no'
+        committer_token: ${{ secrets.GITHUB_TOKEN }}
         config_octicon: 'yes'
         config_timezone: Asia/Kolkata
         config_twemoji: 'yes'
@@ -47,7 +48,7 @@ jobs:
         plugin_stargazers_days: 14
         plugin_traffic: 'yes'
         template: classic
-        token: ${{ secrets.METRICS_TOKEN }}
+        token: ${{ secrets.PROFILE_README_TOKEN }}
         user: DivitMittal
     timeout-minutes: 30
 name: Metrics
