@@ -21,6 +21,9 @@ jobs:
         config_octicon: 'yes'
         config_timezone: Asia/Kolkata
         config_twemoji: 'yes'
+        extras_css: |-
+          /* The classic template uses the same heart icon for Sponsors and Sponsoring. */
+          .field:has(> svg > path[d^="M4.25 2.5c-1.336 0-2.75 1.164-2.75 3"]) { display: none !important; }
         filename: assets/github-metrics.svg
         plugin_habits: 'no'
         plugin_habits_charts_type: classic
