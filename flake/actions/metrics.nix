@@ -32,6 +32,8 @@ _: {
             extras_css = ''
               .calendar.field, .items-wrapper > section:last-of-type { display: none !important; }
               footer { display: none !important; }
+              /* The classic template uses the same heart icon for Sponsors and Sponsoring. */
+              .field:has(> svg > path[d^="M4.25 2.5c-1.336 0-2.75 1.164-2.75 3"]) { display: none !important; }
             '';
 
             config_octicon = "yes";
