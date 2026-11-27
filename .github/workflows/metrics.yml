@@ -22,9 +22,15 @@ jobs:
         config_timezone: Asia/Kolkata
         config_twemoji: 'yes'
         extras_css: |-
+          .calendar.field, .items-wrapper > section:last-of-type { display: none !important; }
+          footer { display: none !important; }
           /* The classic template uses the same heart icon for Sponsors and Sponsoring. */
           .field:has(> svg > path[d^="M4.25 2.5c-1.336 0-2.75 1.164-2.75 3"]) { display: none !important; }
         filename: assets/github-metrics.svg
+        plugin_achievements: 'yes'
+        plugin_achievements_threshold: B
+        plugin_followup: 'yes'
+        plugin_followup_sections: repositories, user
         plugin_habits: 'no'
         plugin_habits_charts_type: classic
         plugin_habits_days: 14
@@ -32,7 +38,7 @@ jobs:
         plugin_habits_from: 200
         plugin_habits_languages_limit: 8
         plugin_habits_languages_threshold: 0%
-        plugin_isocalendar: 'yes'
+        plugin_isocalendar: 'no'
         plugin_isocalendar_duration: half-year
         plugin_languages: 'no'
         plugin_languages_analysis_timeout: 15
@@ -45,10 +51,20 @@ jobs:
         plugin_languages_recent_load: 300
         plugin_languages_sections: most-used
         plugin_languages_threshold: 0%
+        plugin_lines: 'yes'
+        plugin_lines_delay: 30
+        plugin_lines_sections: base
+        plugin_notable: 'yes'
+        plugin_notable_from: all
+        plugin_notable_types: commit, pull_request
         plugin_stargazers: 'no'
         plugin_stargazers_charts: 'no'
         plugin_stargazers_charts_type: classic
         plugin_stargazers_days: 14
+        plugin_topics: 'yes'
+        plugin_topics_limit: 8
+        plugin_topics_mode: icons
+        plugin_topics_sort: activity
         plugin_traffic: 'yes'
         template: classic
         token: ${{ secrets.PROFILE_README_TOKEN }}
